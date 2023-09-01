@@ -1,0 +1,10 @@
+^C:\USERS\NIKHI\ONEDRIVE\DESKTOP\FLUTTER_PROJECTS\CURRENCY_CONVERTER\WINDOWS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/nikhi/OneDrive/Desktop/flutter_projects/currency_converter/windows -BC:/Users/nikhi/OneDrive/Desktop/flutter_projects/currency_converter/build/windows --check-stamp-file C:/Users/nikhi/OneDrive/Desktop/flutter_projects/currency_converter/build/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

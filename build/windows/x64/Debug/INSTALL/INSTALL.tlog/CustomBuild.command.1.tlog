@@ -1,0 +1,10 @@
+^C:\USERS\NIKHI\ONEDRIVE\DESKTOP\FLUTTER_PROJECTS\CURRENCY_CONVERTER\BUILD\WINDOWS\CMAKEFILES\D1534DC7ED3A27C2FBDDE3736070DF87\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

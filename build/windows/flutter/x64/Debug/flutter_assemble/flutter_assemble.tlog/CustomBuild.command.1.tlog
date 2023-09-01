@@ -1,0 +1,28 @@
+^C:\USERS\NIKHI\ONEDRIVE\DESKTOP\FLUTTER_PROJECTS\CURRENCY_CONVERTER\BUILD\WINDOWS\CMAKEFILES\D4C7B5042DCD046A0D6525763D0DD123\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\nikhi\OneDrive\Desktop\flutter_projects\currency_converter FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\nikhi\OneDrive\Desktop\flutter_projects\currency_converter\windows\flutter\ephemeral PROJECT_DIR=C:\Users\nikhi\OneDrive\Desktop\flutter_projects\currency_converter FLUTTER_TARGET=C:\Users\nikhi\OneDrive\Desktop\flutter_projects\currency_converter\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9iMjAxODNlMDQwOTYwOTRiY2MzN2Q5Y2RlMmE0Yjk2ZjVjYzY4NGNmLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\nikhi\OneDrive\Desktop\flutter_projects\currency_converter\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NIKHI\ONEDRIVE\DESKTOP\FLUTTER_PROJECTS\CURRENCY_CONVERTER\BUILD\WINDOWS\CMAKEFILES\6EBAB22246418286F1C4E6C3A6FC961B\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NIKHI\ONEDRIVE\DESKTOP\FLUTTER_PROJECTS\CURRENCY_CONVERTER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/nikhi/OneDrive/Desktop/flutter_projects/currency_converter/windows -BC:/Users/nikhi/OneDrive/Desktop/flutter_projects/currency_converter/build/windows --check-stamp-file C:/Users/nikhi/OneDrive/Desktop/flutter_projects/currency_converter/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
